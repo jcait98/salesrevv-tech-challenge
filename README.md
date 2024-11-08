@@ -1,3 +1,7 @@
+You'll need to install streamlit; I presume you have the other used libraries. Sorry for not dockerizing or similar
+
+run with: streamlit run stateless.py
+
 This is very incomplete, but follows the general form:
   - Near stateless frontend
   - Data all managed in session_manager, to facilitate easy transfer to it being stored in external/persistent methods later on
